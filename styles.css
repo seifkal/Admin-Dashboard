@@ -1,0 +1,118 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    height: 100vh;
+}
+.sidebar{
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+    background-color: #5c5470;
+}
+.content-container{
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+.dashboard{
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    font-size: 2rem;
+}
+.dash-logo{
+    width: 50px;
+    height: 50px;
+}
+.header-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: gray;
+}
+.searchbar-container{
+    display: grid;
+}
+.actions-container{
+    display: grid;
+}
+.actions{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #dbd8e3;
+    gap: 20px;
+}
+.sidebar{
+    padding: 0px;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, min(60px, 80px));
+    list-style-type: none;
+}
+.sidebar-content{
+    display: flex;
+    align-items: center;
+    color: #fafafa;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-left: 12px;
+    padding: 12px;
+}
+.nav-container{
+    display: grid;
+}
+.sidebar-text{
+    margin-left: 18px;
+}
+.nav-logo{
+    width: 30px;
+    height: 30px;
+}
+.nav-gap{
+    margin-bottom: 60px;
+}
+.dash-gap{
+    margin-top: 30px;
+}
+.projects-container{
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 3fr))
+}
+.news-container{
+    background-color: red;
+}
+.project{
+    border-radius: 8px;
+    border-width: 8px;
+    border-left-style: solid;
+    background-color: bisque;
+    margin: 10px;
+    padding: 20px;
+}
+input{
+    height: 20px;
+    background-color: white;
+    border-style: 16px;
+    border-radius: 6px;
+    margin: 8px;
+}
+.announcements-container{
+    background-color:cyan;
+}
+.announ-content{
+    padding: 32px;
+    font-size: 0.9rem;
+}
+.announ-border{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
